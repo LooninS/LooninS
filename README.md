@@ -1,7 +1,9 @@
 # 👋 Hi, I'm LooninS
 
 🎓 CS Undergrad(IIIT-A)
-🛠️ Learning by doing — Linux, Python, Git, and Cybersecurity.
+
+🛠️ Learning by doing — Linux, Python, Git, and C/C++.
+
 💡 Currently focused on building strong habits, documenting my journey, and improving daily.
 
 ### 🧠 Interests
@@ -17,7 +19,7 @@
 
 ### 🛠️ Tech Stack
 `Linux` `Python` `Bash` `Git` `Markdown`  
-Exploring → `DSA` | `C++` | `Cybersecurity`
+Exploring → `DSA` | `C/C++` | `Cybersecurity`
 
 ---
 
