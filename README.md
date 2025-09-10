@@ -1,6 +1,6 @@
 # 👋 Hi, I'm LooninS
 
-🎓 CS Undergrad 
+🎓 CS Undergrad(IIIT-A)
 🛠️ Learning by doing — Linux, Python, Git, and Cybersecurity.
 💡 Currently focused on building strong habits, documenting my journey, and improving daily.
 
@@ -8,15 +8,16 @@
 - Terminal tools & automation
 - CTFs & security basics (TryHackMe / Bandit)
 - Clean, minimal setups (Obsidian, Zellij, Git workflows)
+- I use nvim and arch,btw
 
 ### 📌 Current Goals
-- Daily coding & note journaling
+- Learn DSA
 - Finish OverTheWire Bandit
 - Build a project around my productivity system
 
 ### 🛠️ Tech Stack
 `Linux` `Python` `Bash` `Git` `Markdown`  
-Exploring → `C` | `Web basics` | `Cybersecurity`
+Exploring → `DSA` | `C++` | `Cybersecurity`
 
 ---
 
