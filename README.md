@@ -2,22 +2,19 @@
 
 🎓 CS Undergrad(IIIT-A)
 
-🛠️ Learning by doing — Linux, Python, Git, and C/C++.
+- Learning: Linux, Python, Git, and C/C++.
 
-💡 Currently focused on building strong habits, documenting my journey, and improving daily.
-
-### 🧠 Interests
+### Interests
 - Terminal tools & automation
 - CTFs & security basics (TryHackMe / Bandit)
-- Clean, minimal setups (Obsidian, Zellij, Git workflows)
+- Clean, minimal setups 
 - I use nvim and arch,btw
 
-### 📌 Current Goals
+### Current Goals
 - Learn DSA
-- Finish OverTheWire Bandit
-- Build a project around my productivity system
-
-### 🛠️ Tech Stack
+- Finish OverTheWire Wargames
+- 
+### Tech Stack
 `Linux` `Python` `Bash` `Git` `Markdown`  
 Exploring → `DSA` | `C/C++` | `Cybersecurity`
 
