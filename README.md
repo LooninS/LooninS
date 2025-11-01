@@ -1,6 +1,6 @@
 # 👋 Hi, I'm LooninS
 
-🎓 CS Undergrad(IIIT-A)
+🎓 IT Undergrad(IIIT-A)
 - Exploring → `Python` | `DSA` | `C/C++` | `Cybersecurity`
 ### Interests
 - Terminal tools & automation
