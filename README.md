@@ -1,15 +1,8 @@
 # 👋 Hi, I'm LooninS
 
-🎓 IT Undergrad(IIIT-A)
-- Exploring → `Python` | `DSA` | `C/C++` | `Cybersecurity`
-### Interests
-- Terminal tools & automation
-- CTFs & security basics (TryHackMe / Bandit)
-- Clean, minimal setups 
-- I use nvim and arch,btw
-### Current Goals
-- Learn DSA
-- Finish OverTheWire Wargames
+Sometimes my code compiles the first time. 
+I am learning Cybersec and grinding CTFs.
+I use arch and nvim,btw
 ***
 <!---
 LooninS/LooninS is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
