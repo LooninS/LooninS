@@ -1,7 +1,7 @@
 # 👋 Hi, I'm LooninS
 
 Sometimes my code compiles the first time. 
-I am learning Cybersec and grinding CTFs.
+I am learning Cybersec and grinding DSA.
 I use arch and nvim,btw
 ***
 <!---
