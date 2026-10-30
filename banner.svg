@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="280" viewBox="0 0 800 280">
+  <title>LooninS</title>
+  <defs>
+    <radialGradient id="glow" cx="170" cy="140" r="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#58a6ff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .ring { fill: none; stroke: #58a6ff; transform-box: fill-box; transform-origin: center; }
+    .cw  { animation: spin 60s linear infinite; }
+    .ccw { animation: spin 80s linear infinite reverse; }
+    .wave { fill: none; stroke: #58a6ff; stroke-width: 1.5; transform-box: fill-box; transform-origin: center; opacity: 0; }
+    .w1 { animation: pulse 4s ease-out infinite; }
+    .w2 { animation: pulse 4s ease-out 2s infinite; }
+    .dot { animation: breathe 4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+
+    .name { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 60px; font-weight: 700; fill: #e6edf3; letter-spacing: -1px; }
+    .tag  { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 20px; fill: #8b949e; }
+    .meta { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 15px; fill: #58a6ff; letter-spacing: 1px; }
+
+    .in1 { animation: rise 0.9s ease-out 0.2s both; }
+    .in2 { animation: rise 0.9s ease-out 0.5s both; }
+    .in3 { animation: rise 0.9s ease-out 0.8s both; }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes pulse {
+      0%   { transform: scale(0.1); opacity: 0.7; }
+      100% { transform: scale(1);   opacity: 0; }
+    }
+    @keyframes breathe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.35); } }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+  </style>
+
+  <!-- card -->
+  <rect x="1" y="1" width="798" height="278" rx="14" fill="#0b0f14" stroke="#21262d" stroke-width="2"/>
+  <rect x="1" y="1" width="798" height="278" rx="14" fill="url(#glow)"/>
+
+  <!-- ripple mark: rings that break apart as they move outward -->
+  <g>
+    <circle class="ring" cx="170" cy="140" r="26" stroke-width="2.5" opacity="0.95"/>
+    <circle class="ring cw"  cx="170" cy="140" r="46"  stroke-width="2.2" stroke-dasharray="190 14"  opacity="0.8"/>
+    <circle class="ring ccw" cx="170" cy="140" r="68"  stroke-width="2"   stroke-dasharray="110 22"  opacity="0.6"/>
+    <circle class="ring cw"  cx="170" cy="140" r="92"  stroke-width="1.8" stroke-dasharray="58 30"   opacity="0.45"/>
+    <circle class="ring ccw" cx="170" cy="140" r="118" stroke-width="1.5" stroke-dasharray="20 38"   opacity="0.3"/>
+    <circle class="wave w1" cx="170" cy="140" r="125"/>
+    <circle class="wave w2" cx="170" cy="140" r="125"/>
+    <circle class="dot" cx="170" cy="140" r="6" fill="#58a6ff"/>
+  </g>
+
+  <!-- text -->
+  <g class="in1"><text class="name" x="340" y="132">LooninS</text></g>
+  <rect x="342" y="148" width="120" height="2" fill="url(#rule)"/>
+  <g class="in2"><text class="tag" x="342" y="184">Jack of all trades, master of none.</text></g>
+  <g class="in3"><text class="meta" x="342" y="220">arch · webdev · gamedev · security · ml</text></g>
+</svg>
