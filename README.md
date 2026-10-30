@@ -2,8 +2,6 @@
 
 <img src="banner.svg" alt="LooninS: Jack of all trades, master of none." width="800">
 
-# Hi, I'm LooninS
-
 &nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/sourish-awasthi-040982395/"><img src="https://raw.githubusercontent.com/github/explore/main/topics/linkedin/linkedin.png" alt="LinkedIn" width="44" height="44"/></a>
 &nbsp;&nbsp;
