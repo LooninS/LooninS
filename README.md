@@ -1,4 +1,3 @@
-<div align="center"> <img src="banner.svg" alt="LooninS: Jack of all trades, master of none." width="800"> <br>
 <div align="center">
 
 <img src="banner.svg" alt="LooninS: Jack of all trades, master of none." width="800">
