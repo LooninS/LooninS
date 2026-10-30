@@ -1,7 +1,9 @@
 # 👋 Hi, I'm LooninS
 
+Jack of all trades, master of none.
+
+
 Sometimes my code compiles the first time. 
-I am learning Cybersec and grinding DSA.
 I use arch and nvim,btw
 
 My Blog: https://loonins.github.io/lowlatencylog/
